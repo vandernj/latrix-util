@@ -11,7 +11,7 @@ class parser {
             matrix.resize(1);
             std::string line;
             std::size_t row = 0;
-            int i = 0;
+            T i;
             while (std::getline(std::cin, line)) {
                 if (row == matrix.size()) {
                     matrix.resize(row+1);
